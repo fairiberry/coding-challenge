@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>♡ 𝖈𝖔𝖉𝖎𝖓𝖌 𝖖𝖚𝖎𝖟 ♡</title>
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <div class="scores"><a href="highscores.html">𝖛𝖎𝖊𝖜 𝖍𝖎𝖌𝖍 𝖘𝖈𝖔𝖗𝖊𝖘</a></div>
+
+    <div class="timer">𝖙𝖎𝖒𝖊: <span id="time">0</span></div>
+
+    <div class="wrapper">
+      <div id="start-screen" class="start">       
+        <br />
+        <br />
+        <br />        
+        <br />
+        <br />
+        <br />
+        <div class="nonsense">.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.</div>
+        <div class="welcome">.¸.•♡*¨ 𝖈𝖔𝖉𝖎𝖓𝖌 𝖈𝖍𝖆𝖑𝖑𝖊𝖓𝖌𝖊 ¨*♡•.¸.</div>
+        <div class="nonsense">.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.•*¨*☆•.¸¸.♡.¸¸.•☆*¨*•.¸.</div>
+        <br />
+        <br />
+        <br /> 
+        <div class="instructions">𝔱𝔯𝔶 𝔞𝔫𝔡 𝔞𝔫𝔰𝔴𝔢𝔯 𝔞𝔩𝔩 𝔱𝔥𝔢 𝔮𝔲𝔢𝔰𝔱𝔦𝔬𝔫𝔰 𝔴𝔦𝔱𝔥𝔦𝔫 𝔞 𝔪𝔦𝔫𝔲𝔱𝔢!</div>
+        <br />
+        <br />
+        <br /> 
+        <button type="button" id="start">.¸.•*¨♡*• 𝔰𝔱𝔞𝔯𝔱 •*♡¨*•.¸.</button>
+      </div>
+
+      <div id="questions" class="hide">
+        <br />
+        <br />
+        <br />        
+        <br />
+        <br />
+        <br />        
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <br />
+        <h2 id="question-title"></h2>
+        <div id="choices" class="choices"></div>
+      </div>
+
+      <div id="end-screen" class="hide">
+        <h2>¨*♡•.¸.𝖖𝖚𝖎𝖟 𝖈𝖔𝖒𝖕𝖑𝖊𝖙𝖊!.¸.•♡*¨</h2>
+        <p>𝖋𝖎𝖓𝖆𝖑 𝖘𝖈𝖔𝖗𝖊: <span id="final-score"></span>.</p>
+        <p>
+          𝖊𝖓𝖙𝖊𝖗 𝖎𝖓𝖎𝖙𝖎𝖆𝖑𝖘: <input type="text" id="initials" max="3" />
+          <button id="submit">¨*♡•.¸. 𝔰𝔲𝔟𝔪𝔦𝔱 .¸.•♡*¨</button>
+        </p>
+      </div>
+
+      <div id="feedback" class="feedback hide"></div>
+    </div>
+
+    <script src = "./scores.js"></script>
+    <script src = "./questions.js"></script>
+    <script src = "./logic.js"></script>
+  </body>
+</html>

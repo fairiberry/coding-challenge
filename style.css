@@ -1,0 +1,84 @@
+body {
+    background-color: #F1D4F4;
+    color: #942AA1;
+    object-position: center;
+    text-align: center;
+}
+
+.head{
+    margin-bottom: 3%;
+}
+
+button {
+    border-radius: 5px;
+    border-color: #942AA1;
+    background-color: #ECBCF2;
+    color: #942AA1;
+    font-size: 15px;
+}
+
+#end {
+    text-align: center;
+}
+
+.scores {
+    text-align: left;
+}
+
+
+#start-screen {
+    margin-top: 20px;
+    text-align: center;
+    object-position: center;
+}
+
+
+.timer {
+    float: right;
+}
+
+ul {
+    list-style-type: "♡ ";
+    list-style-position: inside;
+    text-align: center;
+}
+
+.welcome {
+    font-size: 45px;
+    font-style: bold;
+    text-align: center;
+    font-family: 'peach sundress ~', sans-serif;
+}
+
+.nonsense {
+    text-align: center;
+    font-size: 20px;
+}
+
+.instructions {
+    margin-top: 30px;
+    font-size: 25px;
+    text-align: center;
+}
+
+.container {
+    text-align: center;
+}
+
+#question {
+    margin-top: 50px;
+    font-size: 20px;
+}
+
+.answers {
+    margin-top: 30px;
+}
+
+.hide {
+    display: none;
+}
+
+footer {
+    margin-top: 100px;
+    text-align: center;
+}
